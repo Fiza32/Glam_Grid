@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      rel="icon"
+      href="../Images/logo.png"
+      type="image/icon type"
+    />
+    <title>Create New Account</title>
+    <!-- Input here CSS file link -->
+    <link rel="stylesheet" href="../CSS/login.css">
+  </head>
+  <body>
+<!-- Header -->
+<header class="sticky navbar">
+  <div id="logo">
+      <a href="../HTML/home.html"><img src="../Images/logo.png" alt=""></a>
+  </div>
+
+  <!-- Different Categories -->
+  <div class="menu">
+      <ul>
+          <li class="drop-elem">
+              <a href="../HTML/men.html">Men</a>
+          </li>
+          <li class="drop-elem">
+              <a href="../HTML/men.html">Women</a>
+          </li>
+          <li class="drop-elem">
+              <a href="..//HTML/men.html">Kids</a>
+          </li>
+          <li class="drop-elem">
+              <a href="..//HTML/men.html">Home & Living</a>
+          </li>
+          <li class="drop-elem">
+              <a href="..//HTML/men.html">Beauty</a>
+          </li>
+      </ul>
+  </div>
+
+  <!-- Search Box -->
+  <div class="search-data">
+      <img src="../Images/magnifying-glass.png" alt="" id="magni-glass">
+
+      <input type="text" placeholder="Search for products, brands and more">
+  </div>
+
+  <!-- Last Section of header -->
+  <div class="nav-right">
+      <!-- <div>
+          <a href="">
+              <img src="../Images/account.png" alt="" class="nav-img">
+          </a>
+
+          <div>Profile</div>
+      </div> -->
+
+      <div>
+          <a href="">
+              <img src="../Images/heart.png" alt="" class="nav-img">
+          </a>
+
+          <div>Wishlist</div>
+      </div>
+
+      <div>
+          <a href="">
+              <img src="../Images/shopping-bag.png" alt="" class="nav-img">
+          </a>
+
+          <div>Bag</div>
+      </div>
+  </div>
+
+</header>
+
+    <!-- Login Page -->
+
+    <div class="login-page">
+      <img src="https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2022/9/6/98b25e23-649a-40e2-8d86-f9b97f441c791662403123928-offer-banner-300-600x240-code-_-MYNTRA200.jpg" alt="" />
+
+      <div class="credentials">
+        <div class="login-signup"><span id="log-vs-sign"></span>Create an Account</div>
+        
+        <form id="myform">
+          <input type="text" id="mobile" placeholder="   Mobile Number" required/> <br />
+          <input type="email" placeholder="   Email Id" id="email" required>
+          <br>
+          <input type="password" id="pass" placeholder="   Enter Password" required/>
+          <br>
+          <input type="password" placeholder="  Confirm Password" id="pass2" required>
+        </form>
+
+        <p>
+          By continuing I agree to the<span class="first-para">
+            Terms of Use </span
+          >&<span id="policy"> Privacy Policy</span>
+        </p>
+        <div id="msg"></div>
+        <div class="continue" onclick="checkcredentials">CONTINUE</div>
+        <p>Already have an account <a href="../HTML/login.html" id="signpg">Login</a></p>
+      </div>
+    </div>
+  </body>
+
+  <!-- Add JS file here -->
+  <script>
+            let api = "/"
+  </script>
+</html>
