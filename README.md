@@ -4,7 +4,7 @@ Project Deployed Link - https://rainbow-basbousa-84da9c.netlify.app/
 
 Project Description: Myntra Clone
 
-The Myntra Clone project is an impressive solo endeavor that aims to replicate the functionality and design of the popular Indian e-commerce website, Myntra. Developed within a remarkable span of just five days, this project encompasses the essential features of Myntra, including a Home page, a product page, and a cart page. 
+The Glam Grid project is an impressive solo endeavor that aims to replicate the functionality and design of the popular Indian e-commerce website, Myntra. Developed within a remarkable span of just five days, this project encompasses the essential features of Myntra, including a Home page, a product page, and a cart page. 
 
 The Home page serves as the entry point for users, providing them with a visually appealing and user-friendly interface. It features an intuitive search bar, allowing users to easily find their desired products. The Home page also showcases trending products, popular brands, and personalized recommendations based on user preferences and browsing history.
 
